@@ -98,7 +98,15 @@ ul {
 
 /* style.css (continued 3/9) */
 .section-alt {
+  background: transparent;
+}
+/* Skills section card container */
+#skills .container {
   background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: var(--s48);
+  box-shadow: var(--shadow);
 }
 
 
