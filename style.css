@@ -108,6 +108,12 @@ ul {
   padding: var(--s48);
   box-shadow: var(--shadow);
 }
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+    margin-top: 24px;
+}
 
 
 .section-label {

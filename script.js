@@ -74,3 +74,46 @@ const observer = new IntersectionObserver((entries) => {
 
 // Tell the observer to watch each reveal element.
 revealItems.forEach((item) => observer.observe(item));
+
+
+/* --------- 4. LOAD GITHUB PROJECTS --------- */
+
+fetch("projects.json")
+  .then(response => response.json())
+  .then(projects => {
+
+    const container = document.getElementById("projects-container");
+
+    projects.forEach(project => {
+
+      const card = document.createElement("article");
+
+      card.className = "card reveal";
+
+      card.innerHTML = `
+        <span class="card-tag">GitHub Project</span>
+
+        <h3 class="card-title">${project.name}</h3>
+
+        <p class="card-desc">
+          ${project.description || "No description provided"}
+        </p>
+
+        <div class="card-meta">
+          <span class="chip">⭐ ${project.stars}</span>
+          <span class="chip">${project.language || "Unknown"}</span>
+        </div>
+
+        <a href="${project.url}"
+           target="_blank"
+           rel="noopener"
+           class="card-link">
+           View Repository ↗
+        </a>
+      `;
+
+      container.appendChild(card);
+    });
+
+  })
+  .catch(error => console.error(error));
