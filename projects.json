@@ -1,17 +1,17 @@
 [
   {
-    "name": "project-amazon-clone",
-    "description": null,
-    "url": "https://github.com/rose0417m/project-amazon-clone",
-    "stars": 1,
-    "language": "JavaScript"
-  },
-  {
     "name": "folio",
     "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
     "url": "https://github.com/rose0417m/folio",
     "stars": 0,
     "language": "HTML"
+  },
+  {
+    "name": "project-amazon-clone",
+    "description": null,
+    "url": "https://github.com/rose0417m/project-amazon-clone",
+    "stars": 1,
+    "language": "JavaScript"
   },
   {
     "name": "news-headlines-emailer",
