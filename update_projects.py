@@ -1,9 +1,8 @@
-
-
 import requests
 import json
+import os
 
-USERNAME = "rose0417m"
+USERNAME = os.getenv("GITHUB_USERNAME", "rose0417m")
 
 url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated"
 
@@ -24,7 +23,7 @@ for repo in repos:
         "language": repo["language"]
     })
 
-with open("projects.json", "w") as f:
+with open("projects.json", "w", encoding="utf-8") as f:
     json.dump(projects, f, indent=2)
 
 print("Projects updated!")

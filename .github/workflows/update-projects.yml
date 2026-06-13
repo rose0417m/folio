@@ -2,28 +2,32 @@ name: Update Portfolio Projects
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # every 6 hours
+    - cron: "0 */6 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  update:
+  update-projects:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - run: pip install requests
+      - name: Install dependencies
+        run: pip install requests
 
-      - run: python update_projects.py
+      - name: Generate projects.json
         env:
           GITHUB_USERNAME: rose0417m
+        run: python update_projects.py
 
       - name: Commit changes
         run: |
@@ -32,6 +36,6 @@ jobs:
 
           git add projects.json
 
-          git diff --staged --quiet || git commit -m "Auto-update projects"
+          git diff --staged --quiet || git commit -m "Auto update projects"
 
           git push
