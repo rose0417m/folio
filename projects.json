@@ -1,17 +1,24 @@
 [
   {
+    "name": "project-amazon-clone",
+    "description": null,
+    "url": "https://github.com/rose0417m/project-amazon-clone",
+    "stars": 1,
+    "language": "JavaScript"
+  },
+  {
+    "name": "folio",
+    "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
+    "url": "https://github.com/rose0417m/folio",
+    "stars": 0,
+    "language": "HTML"
+  },
+  {
     "name": "news-headlines-emailer",
     "description": null,
     "url": "https://github.com/rose0417m/news-headlines-emailer",
     "stars": 0,
     "language": "Python"
-  },
-  {
-    "name": "project-amazon-clone",
-    "description": null,
-    "url": "https://github.com/rose0417m/project-amazon-clone",
-    "stars": 0,
-    "language": "JavaScript"
   },
   {
     "name": "amazon-clone",
@@ -26,13 +33,6 @@
     "url": "https://github.com/rose0417m/weather-alert",
     "stars": 0,
     "language": "Python"
-  },
-  {
-    "name": "folio",
-    "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
-    "url": "https://github.com/rose0417m/folio",
-    "stars": 0,
-    "language": "HTML"
   },
   {
     "name": "pulse",
