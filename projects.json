@@ -1,5 +1,12 @@
 [
   {
+    "name": "trial",
+    "description": null,
+    "url": "https://github.com/rose0417m/trial",
+    "stars": 0,
+    "language": null
+  },
+  {
     "name": "folio",
     "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
     "url": "https://github.com/rose0417m/folio",
