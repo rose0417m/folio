@@ -1,5 +1,12 @@
 [
   {
+    "name": "star_mapping",
+    "description": null,
+    "url": "https://github.com/rose0417m/star_mapping",
+    "stars": 0,
+    "language": "JavaScript"
+  },
+  {
     "name": "folio",
     "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
     "url": "https://github.com/rose0417m/folio",
@@ -12,13 +19,6 @@
     "url": "https://github.com/rose0417m/trial",
     "stars": 0,
     "language": null
-  },
-  {
-    "name": "star_mapping",
-    "description": null,
-    "url": "https://github.com/rose0417m/star_mapping",
-    "stars": 0,
-    "language": "JavaScript"
   },
   {
     "name": "project-amazon-clone",
