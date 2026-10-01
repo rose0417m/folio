@@ -1,5 +1,12 @@
 [
   {
+    "name": "CrimeInvestigationManagementSystem",
+    "description": "Java-based Crime Investigation Management System using Swing, MySQL and JDBC.",
+    "url": "https://github.com/rose0417m/CrimeInvestigationManagementSystem",
+    "stars": 0,
+    "language": "Java"
+  },
+  {
     "name": "folio",
     "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
     "url": "https://github.com/rose0417m/folio",
