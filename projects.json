@@ -1,5 +1,12 @@
 [
   {
+    "name": "GravityBubble",
+    "description": "A 2D gravity-switching arcade game built with HTML, CSS and JavaScript.",
+    "url": "https://github.com/rose0417m/GravityBubble",
+    "stars": 0,
+    "language": "JavaScript"
+  },
+  {
     "name": "folio",
     "description": "Personal developer portfolio built with HTML, CSS, JavaScript, and GitHub Actions.",
     "url": "https://github.com/rose0417m/folio",
